@@ -1,0 +1,8 @@
+unit Click_Spectral_2_config;
+
+uses Click_Spectral_2_types;
+
+const
+    _SPECTRAL2_I2C_CFG : array[1] of uint32_t = (_I2C_BITRATE_STANDARD_MODE); 
+    
+end.
